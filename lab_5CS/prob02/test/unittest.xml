@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" time="0.014" timestamp="2022-09-20T08:41:59.262" name="AllTests">
+  <testsuite name="CalculateAverage" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="2022-09-20T08:41:59.262">
+    <testcase name="NoElement" file="test/unittest.cpp" line="9" status="run" result="completed" time="0" timestamp="2022-09-20T08:41:59.263" classname="CalculateAverage" />
+    <testcase name="OneElement" file="test/unittest.cpp" line="16" status="run" result="completed" time="0" timestamp="2022-09-20T08:41:59.263" classname="CalculateAverage" />
+    <testcase name="MultipleElement" file="test/unittest.cpp" line="24" status="run" result="completed" time="0" timestamp="2022-09-20T08:41:59.263" classname="CalculateAverage" />
+    <testcase name="MultipleElement2" file="test/unittest.cpp" line="34" status="run" result="completed" time="0" timestamp="2022-09-20T08:41:59.264" classname="CalculateAverage" />
+  </testsuite>
+  <testsuite name="UserInput" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.004" timestamp="2022-09-20T08:41:59.265">
+    <testcase name="AskInput" file="test/unittest.cpp" line="46" status="run" result="completed" time="0.004" timestamp="2022-09-20T08:41:59.265" classname="UserInput" />
+  </testsuite>
+  <testsuite name="Driver" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.007" timestamp="2022-09-20T08:41:59.269">
+    <testcase name="NoClass" file="test/unittest.cpp" line="52" status="run" result="completed" time="0.003" timestamp="2022-09-20T08:41:59.269" classname="Driver" />
+    <testcase name="ClassAverage" file="test/unittest.cpp" line="58" status="run" result="completed" time="0.003" timestamp="2022-09-20T08:41:59.273" classname="Driver" />
+  </testsuite>
+</testsuites>

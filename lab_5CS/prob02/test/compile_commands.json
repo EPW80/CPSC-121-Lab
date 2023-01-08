@@ -1,0 +1,48 @@
+[
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 main.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/main.cc"
+ },
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 calculate_avg.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/calculate_avg.cc"
+ },
+]
+[
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 main.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/main.cc"
+ },
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 calculate_avg.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/calculate_avg.cc"
+ },
+]
+[
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 main.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/main.cc"
+ },
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 calculate_avg.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/calculate_avg.cc"
+ },
+]
+[
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 main.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/main.cc"
+ },
+ {
+ "directory" : "/root/sandbox/lab05/prob01",
+ "command" : "clang++ -std=c++17 calculate_avg.cc -o main",
+ "file" : "/root/sandbox/lab05/prob01/calculate_avg.cc"
+ },
+]

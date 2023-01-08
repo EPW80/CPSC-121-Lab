@@ -1,0 +1,12 @@
+[
+ {
+ "directory" : "/home/runner/lab09-1/prob01",
+ "command" : "clang++ -std=c++17 main.cc -o main",
+ "file" : "/home/runner/lab09-1/prob01/main.cc"
+ },
+ {
+ "directory" : "/home/runner/lab09-1/prob01",
+ "command" : "clang++ -std=c++17 car.cc -o main",
+ "file" : "/home/runner/lab09-1/prob01/car.cc"
+ },
+]

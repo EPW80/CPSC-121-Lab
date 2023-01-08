@@ -1,0 +1,16 @@
+---
+MainSourceFile:  '/home/runner/lab09-1/prob01/car.cc'
+Diagnostics:
+  - DiagnosticName:  modernize-use-bool-literals
+    DiagnosticMessage:
+      Message:         converting integer literal to bool, use bool literal instead
+      FilePath:        main.cc
+      FileOffset:      323
+      Replacements:
+        - FilePath:        main.cc
+          Offset:          323
+          Length:          1
+          ReplacementText: 'true'
+    Level:           Warning
+    BuildDirectory:  '/home/runner/lab09-1/prob01'
+...

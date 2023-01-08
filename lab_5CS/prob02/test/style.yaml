@@ -1,0 +1,54 @@
+---
+MainSourceFile:  /root/sandbox/lab05/prob01/calculate_avg.cc
+Diagnostics:     
+  - DiagnosticName:  misc-unused-parameters
+    Message:         'parameter ''student_grades'' is unused'
+    FileOffset:      70
+    FilePath:        calculate_avg.cc
+    Replacements:    
+      - FilePath:        calculate_avg.cc
+        Offset:          70
+        Length:          14
+        ReplacementText: ' /*student_grades*/'
+  - DiagnosticName:  google-readability-todo
+    Message:         missing username/bug in TODO
+    FileOffset:      146
+    FilePath:        calculate_avg.cc
+    Replacements:    
+      - FilePath:        calculate_avg.cc
+        Offset:          146
+        Length:          45
+        ReplacementText: '// TODO(root): Compute and return the average grade'
+  - DiagnosticName:  google-readability-todo
+    Message:         missing username/bug in TODO
+    FileOffset:      311
+    FilePath:        main.cc
+    Replacements:    
+      - FilePath:        main.cc
+        Offset:          311
+        Length:          57
+        ReplacementText: '// TODO(root): Construct a vector whose size is the same as the'
+  - DiagnosticName:  google-readability-todo
+    Message:         missing username/bug in TODO
+    FileOffset:      743
+    FilePath:        main.cc
+    Replacements:    
+      - FilePath:        main.cc
+        Offset:          743
+        Length:          42
+        ReplacementText: '// TODO(root): Store the input GPA from cin into'
+  - DiagnosticName:  google-readability-todo
+    Message:         missing username/bug in TODO
+    FileOffset:      1048
+    FilePath:        main.cc
+    Replacements:    
+      - FilePath:        main.cc
+        Offset:          1048
+        Length:          60
+        ReplacementText: '// TODO(root): Call your CalculateAverage function and provide any'
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'use of undeclared identifier ''student_grades'''
+    FileOffset:      1384
+    FilePath:        main.cc
+    Replacements:    
+...
