@@ -1,7 +1,8 @@
 #include "time_converter.h"
 #include <iostream>
 
-int main() {
+int main()
+{
   int military_time;
   std::cout << "Please enter the time in military time: ";
   std::cin >> military_time;

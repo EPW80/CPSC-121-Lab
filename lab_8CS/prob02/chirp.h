@@ -1,11 +1,12 @@
 #include <string>
 
-class Chirp {
- private:
+class Chirp
+{
+private:
   std::string message_;
   int likes_;
 
- public:
+public:
   Chirp();
   Chirp(std::string message);
   Chirp(std::string message, int likes);

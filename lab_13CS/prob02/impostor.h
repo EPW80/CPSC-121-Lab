@@ -14,7 +14,6 @@ class Impostor : public Astronaut {
     std::cout << Astronaut::GetName() << " killed " << kill.GetName();
     kill.SetIsAlive(false);
   }
-
 };
 
 // ========================= YOUR CODE HERE =========================

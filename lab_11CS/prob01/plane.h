@@ -1,12 +1,13 @@
 #include <string>
 
 class Plane {
-public:
+ public:
   Plane()
       : seat_count_(121), passenger_count_(121), destination_("Fullerton") {}
 
   Plane(int seat_count, int passenger_count, const std::string &destination)
-      : seat_count_(seat_count), passenger_count_(passenger_count),
+      : seat_count_(seat_count),
+        passenger_count_(passenger_count),
         destination_(destination) {}
 
   // ====================== YOUR CODE HERE ======================
@@ -20,14 +21,26 @@ public:
   //      passenger count, and flight destination and initializes
   //      each corresponding member variable appropriately.
   // ============================================================
-  int GetPassengerCount() const { return passenger_count_; }
-  void SetPassengerCount(int passengers) { passenger_count_ = passengers; }
-  int GetSeatCount() const { return seat_count_; }
-  void SetSeatCount(int seats) { seat_count_ = seats; }
-  const std::string &GetDestination() const { return destination_; }
-  void SetDestination(const std::string &dest) { destination_ = dest; }
+  int GetPassengerCount() const {
+    return passenger_count_;
+  }
+  void SetPassengerCount(int passengers) {
+    passenger_count_ = passengers;
+  }
+  int GetSeatCount() const {
+    return seat_count_;
+  }
+  void SetSeatCount(int seats) {
+    seat_count_ = seats;
+  }
+  const std::string &GetDestination() const {
+    return destination_;
+  }
+  void SetDestination(const std::string &dest) {
+    destination_ = dest;
+  }
 
-private:
+ private:
   int seat_count_;
   int passenger_count_;
   std::string destination_;

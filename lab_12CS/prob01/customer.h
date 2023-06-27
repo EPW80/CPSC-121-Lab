@@ -2,15 +2,22 @@
 #include <string>
 
 class Customer {
-public:
+ public:
   Customer();
   Customer(const std::string &name, int product_count,
            std::shared_ptr<Customer> next_customer)
-      : name_(name), product_count_(product_count),
+      : name_(name),
+        product_count_(product_count),
         next_customer_(next_customer) {}
-  std::string GetName() const { return name_; }
-  int GetProductCount() const { return product_count_; }
-  std::shared_ptr<Customer> GetNextCustomer() const { return next_customer_; }
+  std::string GetName() const {
+    return name_;
+  }
+  int GetProductCount() const {
+    return product_count_;
+  }
+  std::shared_ptr<Customer> GetNextCustomer() const {
+    return next_customer_;
+  }
   int TotalCustomersInLine() {
     int total_number_of_customers_ = 1;
     if (next_customer_ == nullptr)
@@ -44,7 +51,7 @@ public:
     }
   }
 
-private:
+ private:
   std::string name_;
   int product_count_;
   std::shared_ptr<Customer> next_customer_;

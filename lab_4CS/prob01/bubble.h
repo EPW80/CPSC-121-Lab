@@ -2,8 +2,9 @@
 
 #include "cpputils/graphics/image.h"
 
-class Bubble {
- public:
+class Bubble
+{
+public:
   // Member functions of the Bubble class.
   // These member functions are called "setters" or "setter functions"
   // because they SET the member variables to the given input.
@@ -20,7 +21,7 @@ class Bubble {
   int GetSize();
   std::string ToString();
 
- private:
+private:
   // Member variables of the Bubble class.
   int x_ = 0;
   int y_ = 0;
