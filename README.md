@@ -1,6 +1,6 @@
 # CPSC 121 labs
 
-### Project folder containing my lab assignments from CPSC 121(Object-Oriented Programming). The object-oriented programming paradigm:
+Project folder containing my lab assignments from CPSC 121(Object-Oriented Programming). The object-oriented programming paradigm:
 
 - classes
 - member functions
@@ -8,7 +8,7 @@
 - inheritance
 - polymorphism and exceptions
 
-### Design practices including:
+Design practices include:
 
 - encapsulation
 - decoupling
