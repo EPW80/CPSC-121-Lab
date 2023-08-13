@@ -1,4 +1,4 @@
-# CPSC 121 labs
+# CPSC 121 lab
 
 Project folder containing my lab assignments from CPSC 121(Object-Oriented Programming). The object-oriented programming paradigm:
 
